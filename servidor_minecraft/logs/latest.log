@@ -4143,3 +4143,41 @@ java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.isJso
 [24Dec2024 00:31:05.541] [pool-9-thread-1/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_swamp], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_mushroom], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_birch], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_jungle], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_warped], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_wooded_badlands], ResourceKey[minecraft:worldgen/structure / blue_skies:village_sunset_maple_forest], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_birch_forest]] from pos BlockPos{x=101, y=68, z=-203}
 [24Dec2024 00:31:05.560] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2161ms or 43 ticks behind
 [24Dec2024 00:31:05.834] [Server thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Found Pupfish chunk at 1535 ~ -48 after 7 tries
+[24Dec2024 00:56:36.643] [Netty Epoll Server IO #2/WARN] [mixin/]: @ModifyConstant conflict. Skipping connectivity.mixins.json:PacketEncoderMixin from mod connectivity->@ModifyConstant::modifyLimit(ILio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/protocol/Packet;Lio/netty/buffer/ByteBuf;)I with priority 1000, already redirected by packetfixer-common.mixins.json:PacketEncoderMixin from mod packetfixer->@ModifyConstant::newSize(I)I with priority 9999
+[24Dec2024 00:56:36.915] [Netty Epoll Server IO #2/INFO] [mixin/]: Mixing server.MixinServerboundChatCommandPacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatCommandPacket
+[24Dec2024 00:56:36.917] [Netty Epoll Server IO #2/INFO] [mixin/]: Mixing server.MixinServerboundChatPacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatPacket
+[24Dec2024 00:56:36.918] [Netty Epoll Server IO #2/INFO] [mixin/]: Mixing server.MixinServerboundChatSessionUpdatePacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatSessionUpdatePacket
+[24Dec2024 00:56:44.464] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YOSOYGIANYT1[/127.129.21.188:53267] logged in with entity id 836 at (14.5, 68.0, -40.5)
+[24Dec2024 00:56:47.176] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to YOSOYGIANYT1
+[24Dec2024 00:56:47.178] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to YOSOYGIANYT1
+[24Dec2024 00:56:47.178] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to YOSOYGIANYT1
+[24Dec2024 00:56:47.179] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to YOSOYGIANYT1
+[24Dec2024 00:56:47.181] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to YOSOYGIANYT1
+[24Dec2024 00:56:47.184] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to YOSOYGIANYT1
+[24Dec2024 00:56:47.185] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to YOSOYGIANYT1
+[24Dec2024 00:56:47.220] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[24Dec2024 00:56:47.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOSOYGIANYT1 joined the game
+[24Dec2024 00:56:47.376] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 39dbd5ba-c110-3f38-874d-90a71c09d307
+[24Dec2024 00:56:47.468] [Server thread/INFO] [Jade/]: Syncing config to YOSOYGIANYT1 (39dbd5ba-c110-3f38-874d-90a71c09d307)
+[24Dec2024 00:57:03.571] [Server thread/INFO] [ping-wheel/]: Channel update: YOSOYGIANYT1 -> default
+[24Dec2024 00:57:03.574] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Auto-Sync was disabled on the server.
+[24Dec2024 00:57:03.602] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 19153ms or 383 ticks behind
+[24Dec2024 00:57:46.806] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YOSOYGIANYT1 lost connection: Disconnected
+[24Dec2024 00:57:46.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YOSOYGIANYT1 left the game
+[24Dec2024 00:57:46.808] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 39dbd5ba-c110-3f38-874d-90a71c09d307
+[24Dec2024 00:57:46.856] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[24Dec2024 00:58:02.418] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AugustoButiDMC[/127.250.30.92:57357] logged in with entity id 982 at (25.5, 69.0, -49.5)
+[24Dec2024 00:58:02.424] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to AugustoButiDMC
+[24Dec2024 00:58:02.424] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to AugustoButiDMC
+[24Dec2024 00:58:02.425] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to AugustoButiDMC
+[24Dec2024 00:58:02.425] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to AugustoButiDMC
+[24Dec2024 00:58:02.428] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to AugustoButiDMC
+[24Dec2024 00:58:02.430] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to AugustoButiDMC
+[24Dec2024 00:58:02.430] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to AugustoButiDMC
+[24Dec2024 00:58:02.443] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[24Dec2024 00:58:02.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC joined the game
+[24Dec2024 00:58:02.558] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for db781a47-50fb-3203-a5c0-439dce483f3f
+[24Dec2024 00:58:02.576] [Server thread/INFO] [Jade/]: Syncing config to AugustoButiDMC (db781a47-50fb-3203-a5c0-439dce483f3f)
+[24Dec2024 00:59:00.509] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AugustoButiDMC lost connection: Timed out
+[24Dec2024 00:59:00.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC left the game
+[24Dec2024 00:59:00.509] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for db781a47-50fb-3203-a5c0-439dce483f3f

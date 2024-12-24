@@ -1,0 +1,17 @@
+{
+	id: "39dbd5ba-c110-3f38-874d-90a71c09d307"
+	type: "player"
+	player_name: "YOSOYGIANYT1"
+	ranks: {
+		39dbd5ba-c110-3f38-874d-90a71c09d307: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "YOSOYGIANYT1"
+		"ftbteams:description": ""
+		"ftbteams:color": "#5964FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

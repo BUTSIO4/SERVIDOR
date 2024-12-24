@@ -1,0 +1,17 @@
+{
+	id: "db781a47-50fb-3203-a5c0-439dce483f3f"
+	type: "player"
+	player_name: "AugustoButiDMC"
+	ranks: {
+		db781a47-50fb-3203-a5c0-439dce483f3f: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "AugustoButiDMC"
+		"ftbteams:description": ""
+		"ftbteams:color": "#8759FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
